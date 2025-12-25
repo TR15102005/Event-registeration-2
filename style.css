@@ -1,0 +1,144 @@
+/* Global background and font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* soft professional gradient */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header bar styling */
+.header {
+  background: #0078d7; /* corporate blue */
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header button {
+  background: #fff;
+  color: #0078d7;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.header button:hover {
+  background: #e6e6e6;
+}
+
+/* Dashboard card container */
+.dashboard {
+  background: #ffffff;
+  color: #333;
+  padding: 30px;
+  margin: 40px auto;
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #2a2a2a;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 12px;
+  font-weight: 500;
+}
+
+input, select, button {
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Buttons inside forms */
+form button {
+  background: #0078d7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #005a9e;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #f0f0f0;
+  font-weight: 600;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+/* Login page container */
+.login-container {
+  background: #ffffff;
+  color: #333;
+  padding: 30px;
+  margin: 100px auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container button {
+  background: #0078d7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+  background: #005a9e;
+}

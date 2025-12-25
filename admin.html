@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h2>Admin Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+    
+    <h3>Event List</h3>
+    <table>
+      <tr><th>Event</th><th>Date</th></tr>
+      <tr><td>Tech Conference</td><td>2025-01-15</td></tr>
+      <tr><td>Workshop</td><td>2025-02-10</td></tr>
+    </table>
+    
+    <h3>Register Student</h3>
+    <form id="registerForm">
+      <label>Name</label>
+      <input type="text" id="studentName" required>
+      
+      <label>Department</label>
+      <input type="text" id="studentDept" required>
+      
+      <label>Event</label>
+      <select id="eventSelect">
+        <option value="Tech Conference">Tech Conference</option>
+        <option value="Workshop">Workshop</option>
+      </select>
+      
+      <label>Date</label>
+      <input type="date" id="eventDate" required>
+      
+      <button type="submit">Register</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
